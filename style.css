@@ -1,0 +1,8 @@
+canvas {
+    /*because our canvas is 400px wide we can subtract 200 from half the
+    width/height of the screen to get it to be in the middle*/
+    left: calc(50% - 200px);
+    top: calc(50vh - 200px);
+    position: relative;
+ }
+ 
