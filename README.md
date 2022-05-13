@@ -1,7 +1,8 @@
 # for-the-community
 
 Idea sketch
-![PageSketches](https://user-images.githubusercontent.com/89341312/168197873-f2ccd00a-aba7-4333-9901-a92c3ce50eba.jpeg)
+![IdeaSketch](https://user-images.githubusercontent.com/89341312/168198270-8e71064e-0ed9-4ae1-bb60-02f058736731.jpeg)
+
 
 
 ![secondPageSketch](https://user-images.githubusercontent.com/89341312/168197898-02d631ab-71d4-4712-86a4-93f4e84ad056.jpeg)
