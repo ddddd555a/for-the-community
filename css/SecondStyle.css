@@ -1,0 +1,230 @@
+.title{
+  text-align: center;
+  font-size: 70px;
+}
+.question-list{
+  /* justify-self: center; */
+  /* position: relative; */
+  /* padding: 0px 0px 0px 80px; */
+  /* display: inline-block; */
+  /* justify-content: center; */
+  /* width: 400px; */
+}
+.question-item{
+  /* position: absolute; */
+  /* display: inline-block; */
+  
+}
+
+.subtitle{
+  font-size: 50px;
+}
+
+.subtitle-item{
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+
+/* 손목 관련 CSS */
+.img_wrist{
+  display: inline-block;
+  width: 330px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+.img_wrist:hover{
+  cursor: pointer;
+}
+
+.radio_wrist_a{
+  display: none;
+}
+.label_wrist_a{
+  background-image: url("../images/wrist_a.jpg");
+}
+.radio_wrist_a:checked + label.label_wrist_a{
+  background-image: url("../images/wrist_a_selected.png");
+}
+
+.radio_wrist_b{
+  display: none;
+}
+.label_wrist_b{
+  background-image: url("../images/wrist_b.jpg");
+}
+.radio_wrist_b:checked + label.label_wrist_b{
+  background-image: url("../images/wrist_b_selected.png");
+}
+
+.radio_wrist_c{
+  display: none;
+}
+.label_wrist_c{
+  background-image: url("../images/wrist_c.jpg");
+}
+.radio_wrist_c:checked + label.label_wrist_c{
+  background-image: url("../images/wrist_c_selected.png");
+}
+
+/* 어깨 관련 CSS */
+.img_shoulder{
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  text-align: center;
+}
+.img_shoulder:hover{
+  cursor: pointer;
+}
+
+.radio_shouder_up{
+  display: none;
+}
+.label_shouder_up{
+  background-image: url("../images/shoulder_up.jpg");
+}
+.radio_shouder_up:checked + label.label_shouder_up{
+  background-image: url("../images/shoulder_up_selected.png");
+}
+
+.radio_shouder_down{
+  display: none;
+}
+.label_shouder_down{
+  background-image: url("../images/shoulder_down.jpg");
+}
+.radio_shouder_down:checked + label.label_shouder_down{
+  background-image: url("../images/sholder_down_selected.png");
+}
+
+/* 바 위치 관련 CSS */
+.img_bar{
+  display: inline-block;
+  width: 340px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  text-align: center;
+}
+.img_bar:hover{
+  cursor: pointer;
+}
+
+.radio_bar_a{
+  display: none;
+}
+.label_bar_a{
+  background-image: url("../images/bar_a.jpg");
+}
+.radio_bar_a:checked + label.label_bar_a{
+  background-image: url("../images/bar_a_selected.png");
+}
+
+.radio_bar_b{
+  display: none;
+}
+.label_bar_b{
+  background-image: url("../images/bar_b.jpg");
+}
+.radio_bar_b:checked + label.label_bar_b{
+  background-image: url("../images/bar_b_selected.png");
+}
+
+.radio_bar_c{
+  display: none;
+}
+.label_bar_c{
+  background-image: url("../images/bar_c.jpg");
+}
+.radio_bar_c:checked + label.label_bar_c{
+  background-image: url("../images/bar_c_selected.png");
+  
+}
+
+/* input range 관련 CSS */
+.label_range{
+  display: flex;
+}
+
+datalist {
+  display: inline-flex;
+}
+
+datalist option {
+  margin: 0;
+  width: 400px;
+  text-align: center;
+}
+
+/* 겨드랑이 각도 관련 CSS */
+.label_armpit{
+  background-image: url("../images/armpit_angle.jpg");
+  display: inline-block;
+  width: 340px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  text-align: center;
+}
+
+/* 허리 아치 관련 CSS */
+.label_arch_a{
+  background-image: url("../images/arch_a.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}
+.label_arch_b{
+  background-image: url("../images/arch_b.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}
+.label_arch_c{
+  background-image: url("../images/arch_c.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}
+
+/* 벤치 각도 관련 CSS */
+.label_bench_a{
+  background-image: url("../images/bench_a.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}
+.label_bench_b{
+  background-image: url("../images/bench_b.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}
+.label_bench_c{
+  background-image: url("../images/bench_c.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}

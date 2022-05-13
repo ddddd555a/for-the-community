@@ -1,0 +1,120 @@
+.title{
+    text-align: center;
+    font-size: 70px;
+  }
+.subtitle{
+  font-size: 50px;
+}
+
+/* 문제관련 CSS */
+.wrist_a{
+  background-image: url("../images/wrist_a.jpg");
+  display: inline-block;
+  width: 330px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+.wrist_b{
+  background-image: url("../images/wrist_b.jpg");
+  display: inline-block;
+  width: 330px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+.wrist_c{
+  background-image: url("../images/wrist_c.jpg");
+  display: inline-block;
+  width: 330px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+
+.shoulder_up{
+  background-image: url("../images/shoulder_up.jpg");
+  display: inline-block;
+  width: 330px;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: 330px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+
+.shoulder_down{
+  background-image: url("../images/shoulder_down.jpg");
+  display: inline-block;
+  width: 330px;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: 330px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+
+.bar_a{
+  background-image: url("../images/bar_a.jpg");
+  display: inline-block;
+  width: 340px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 340px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+.bar_b{
+  background-image: url("../images/bar_b.jpg");
+  display: inline-block;
+  width: 340px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 340px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+.bar_c{
+  background-image: url("../images/bar_c.jpg");
+  display: inline-block;
+  width: 340px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 340px;
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+
+/* 팁 관련 CSS */
+.tip_a{
+  background-image: url("../images/tip1.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}
+.tip_b{
+  background-image: url("../images/tip2.jpg");
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+  text-align: center;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <title>Bench Press Freak</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./css/SecondStyle.css">
+  <script src="./js/SecondScript.js"></script>
+</head>
+
+<body style="background-color: rgb(237, 237, 237);">
+  <div class="title">General Question</div>
+  <hr>
+
+  <div style="display:flex; justify-content: center;">
+  <div class="question-list">
+    <div class="question-item">
+      <div class="subtitle">- Breath</div>
+      <p class="subtitle-item">When a bar goes down</p>
+      <div>
+        <input type="radio" name="breath" id="inhale" onchange="insert('breath', this.id)">inhale
+        </input>
+        <input type="radio" name="breath" id="exhale" onchange="insert('breath', this.id)">exhale
+        </input>
+      </div>
+    </div>
+
+    <div class="question-item">
+      <div class="subtitle">- Wrist Angle</div>
+      <div>
+        <input class="radio_wrist_a" type="radio" name="wrist-angle" id="wrist_a" onchange="insert('wrist-angle', this.id)">
+        <label for="wrist_a" class="img_wrist label_wrist_a"></label>
+        <input class="radio_wrist_b" type="radio" name="wrist-angle" id="wrist_b" onchange="insert('wrist-angle', this.id)">
+        <label for="wrist_b" class="img_wrist label_wrist_b"></label>
+        <input class="radio_wrist_c" type="radio" name="wrist-angle" id="wrist_c" onchange="insert('wrist-angle', this.id)">
+        <label for="wrist_c" class="img_wrist label_wrist_c"></label>
+      </div>
+    </div>
+
+    <div class="question-item">
+      <div class="subtitle">- Shoulder</div>
+      <div>
+        <input class="radio_shouder_up" type="radio" name="shoulder" id="shoulder_up" onchange="insert('shoulder', this.id)">
+        <label for="shoulder_up" class="img_shoulder label_shouder_up">UP</label>
+      </input>
+        <input class="radio_shouder_down" type="radio" name="shoulder" id="shoulder_down" onchange="insert('shoulder', this.id)">
+        <label for="shoulder_down" class="img_shoulder label_shouder_down">DOWN</label>
+      </div>
+    </div>
+
+    <div class="question-item">
+      <div class="subtitle">- Which one should be slower?</div>
+      <div>
+        <p><input type="radio" name="slower" id="slower_a" onchange="insert('slower', this.id)">When the bar goes down</p>
+        <p><input type="radio" name="slower" id="slower_b" onchange="insert('slower', this.id)">When the bar goes up</p>
+      </div>
+    </div>
+
+    <div class="question-item">
+      <div class="subtitle">- Bar Grabbing Position</div>
+      <div>
+        <input class="radio_bar_a" type="radio" name="bar-position" id="bar_a" onchange="insert('bar', this.id)">
+        <label for="bar_a" class="img_bar label_bar_a"></label>
+        <input class="radio_bar_b" type="radio" name="bar-position" id="bar_b" onchange="insert('bar', this.id)">
+        <label for="bar_b" class="img_bar label_bar_b"></label>
+        <input class="radio_bar_c" type="radio" name="bar-position" id="bar_c" onchange="insert('bar', this.id)">
+        <label for="bar_c" class="img_bar label_bar_c"></label>
+      </div>
+    </div>
+  </div>
+  </div>
+  <hr>
+  <div class="title">Preferance Question</div>
+  <hr>
+
+  <div style="display:flex; justify-content: center;">
+  <div class="question-list">
+    <div class="question-item">
+      <div class="subtitle">- Armpit Angle</div>
+      <label class="label_armpit"></label>
+      <label class="label_range">
+        <div style="display: flex;  flex-direction: column;">
+          <input type="range" id="armpit-range" min="1" max="3" steps="1" value="2" list="ticks">
+          <datalist id="ticks">
+            <option value="1" label="lower"></option>
+            <option value="2" label="mid"></option>
+            <option value="3" label="upper"></option>
+          </datalist>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-item">
+      <div class="subtitle">- Waist Arch</div>
+      <label class="label_arch_a"></label>
+      <label class="label_arch_b"></label>
+      <label class="label_arch_c"></label>
+      <label class="label_range">
+        <div style="display: flex;  flex-direction: column;">
+          <input type="range" id="waist-range" min="1" max="3" steps="1" value="2" list="ticks">
+          <datalist id="ticks">
+            <option value="1" label="lower"></option>
+            <option value="2" label="mid"></option>
+            <option value="3" label="upper"></option>
+          </datalist>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-item">
+      <div class="subtitle">- Bench Angle</div>
+      <label class="label_bench_a"></label>
+      <label class="label_bench_b"></label>
+      <label class="label_bench_c"></label>
+      <label class="label_range">
+        <div style="display: flex;  flex-direction: column;">
+          <input type="range" id="bench-range" min="1" max="3" steps="1" value="2" list="ticks">
+          <datalist id="ticks">
+            <option value="1" label="lower"></option>
+            <option value="2" label="mid"></option>
+            <option value="3" label="upper"></option>
+          </datalist>
+        </div>
+      </label>
+    </div>
+
+    <div class="start-btn" onclick="resultValidation()">
+      <p class="title" style="background-color: rgb(131, 131, 165);">Get Result!</p>
+    </div>
+  </div>
+  </div>
+  
+
+    
+
+</body>
+
+</html>
